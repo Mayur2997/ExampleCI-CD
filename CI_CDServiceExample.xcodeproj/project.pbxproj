@@ -14,6 +14,10 @@
 		99E9FCCB249A30C700C2CE1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99E9FCCA249A30C700C2CE1B /* Assets.xcassets */; };
 		99E9FCCE249A30C700C2CE1B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99E9FCCC249A30C700C2CE1B /* LaunchScreen.storyboard */; };
 		99E9FCD9249A30C800C2CE1B /* CI_CDServiceExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99E9FCD8249A30C800C2CE1B /* CI_CDServiceExampleTests.swift */; };
+		99E9FCE6249A30D700C2CE1B /* Shuffle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99E9FCE3249A30D700C2CE1B /* Shuffle.swift */; };
+		99E9FCE7249A30D700C2CE1B /* Converter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99E9FCE4249A30D700C2CE1B /* Converter.swift */; };
+		99E9FCE8249A30D700C2CE1B /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99E9FCE5249A30D700C2CE1B /* Game.swift */; };
+		99E9FCEA249A30E000C2CE1B /* ConverterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99E9FCE9249A30E000C2CE1B /* ConverterTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +42,10 @@
 		99E9FCD4249A30C800C2CE1B /* CI_CDServiceExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CI_CDServiceExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		99E9FCD8249A30C800C2CE1B /* CI_CDServiceExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CI_CDServiceExampleTests.swift; sourceTree = "<group>"; };
 		99E9FCDA249A30C800C2CE1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99E9FCE3249A30D700C2CE1B /* Shuffle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Shuffle.swift; sourceTree = "<group>"; };
+		99E9FCE4249A30D700C2CE1B /* Converter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Converter.swift; sourceTree = "<group>"; };
+		99E9FCE5249A30D700C2CE1B /* Game.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		99E9FCE9249A30E000C2CE1B /* ConverterTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConverterTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +90,9 @@
 				99E9FCC1249A30C500C2CE1B /* AppDelegate.swift */,
 				99E9FCC3249A30C500C2CE1B /* SceneDelegate.swift */,
 				99E9FCC5249A30C500C2CE1B /* ViewController.swift */,
+				99E9FCE4249A30D700C2CE1B /* Converter.swift */,
+				99E9FCE5249A30D700C2CE1B /* Game.swift */,
+				99E9FCE3249A30D700C2CE1B /* Shuffle.swift */,
 				99E9FCC7249A30C500C2CE1B /* Main.storyboard */,
 				99E9FCCA249A30C700C2CE1B /* Assets.xcassets */,
 				99E9FCCC249A30C700C2CE1B /* LaunchScreen.storyboard */,
@@ -93,6 +104,7 @@
 		99E9FCD7249A30C800C2CE1B /* CI_CDServiceExampleTests */ = {
 			isa = PBXGroup;
 			children = (
+				99E9FCE9249A30E000C2CE1B /* ConverterTests.swift */,
 				99E9FCD8249A30C800C2CE1B /* CI_CDServiceExampleTests.swift */,
 				99E9FCDA249A30C800C2CE1B /* Info.plist */,
 			);
@@ -201,8 +213,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				99E9FCC6249A30C500C2CE1B /* ViewController.swift in Sources */,
+				99E9FCE8249A30D700C2CE1B /* Game.swift in Sources */,
+				99E9FCE6249A30D700C2CE1B /* Shuffle.swift in Sources */,
 				99E9FCC2249A30C500C2CE1B /* AppDelegate.swift in Sources */,
 				99E9FCC4249A30C500C2CE1B /* SceneDelegate.swift in Sources */,
+				99E9FCE7249A30D700C2CE1B /* Converter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,6 +225,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99E9FCEA249A30E000C2CE1B /* ConverterTests.swift in Sources */,
 				99E9FCD9249A30C800C2CE1B /* CI_CDServiceExampleTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
